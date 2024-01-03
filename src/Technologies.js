@@ -1,13 +1,13 @@
 import React from 'react'
 
-function Techs() {
+function Technologies() {
   return (
     <div>
-
+      <h1>Technologies</h1>
     </div>
   )
 }
 
-export default Techs
+export default Technologies
 
 // Add all the tech stacks I know
