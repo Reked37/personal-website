@@ -1,3 +1,14 @@
+@font-face{
+  font-family: 'Merriweather';
+  src:url('//home/dtruesdale/Projects/personal-website/public/Merriweather/Merriweather-Regular.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+
+body{
+  font-family:'Merriweather', sans-serif;
+  margin:20px;
+}
 
 .navbar{
   margin:0;
@@ -50,5 +61,9 @@
 }
 
 .projects{
+  text-align: center;
+}
+
+.technologies{
   text-align: center;
 }

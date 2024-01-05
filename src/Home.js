@@ -3,7 +3,7 @@ import React from 'react'
 export default function Home() {
   return (
     <div>
-      <h1 className= 'title'> Derek Truesdale's Personal Website</h1>
+      <h1 className= 'title'> Derek Truesdale's Website</h1>
       <div className='container'>
         <img className="picture" src='https://i.imgur.com/G9dZsHT.jpg' />
       </div>
@@ -28,6 +28,15 @@ export default function Home() {
         which is a 6-week project that I get put into a team environment to grow my abilities further and see what it's like to work in a professional setting with a team. Currently I am looking
         to land my first job as a software engineer.
       </div>
+    <div className='technologies'>
+      <h2>Technologies</h2>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Python</li>
+      <li>Flask</li>
+      <li>Redux</li>
+    </div>
+
       <h3>Contact Info:</h3>
       <a className='link' href='https://github.com/Reked37'> Github </a>
       <a className='link' href='https://www.linkedin.com/in/derektruesdale/'> Linkedin </a>
