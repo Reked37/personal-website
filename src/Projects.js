@@ -1,12 +1,13 @@
 import React from 'react'
+import FootballLeague from './'
 
 export default function Projects() {
-  const footballLeagueVideo = () =>{
+  const FootballLeague = () =>{
     return(
         <div className='football'>
             <h2 className='sub-title'>Football League</h2>
             <video width='640' height='360' controls>
-                <source src="./FootballLeague.mp4" type="video/mp4"/>
+                <source src='/videos/FootballLeague.mp4' type="video/mp4"/>
             </video>
             <div>
                 <h3 className='description'> Description</h3>
@@ -19,7 +20,7 @@ export default function Projects() {
         </div>
     )
   }
-  const youtubeWatchListVideo = () =>{
+  const YoutubeWatchList = () =>{
     return(
         <div className='youtube'>
             <h2 className='sub-title'>Youtube Watch List</h2>
@@ -36,7 +37,7 @@ export default function Projects() {
         </div>
     )
   }
-  const passwordManagerVideo = () =>{
+  const PasswordManager = () =>{
     return(
         <div className='password'>
             <h2 className='sub-title'>Password Manager</h2>
@@ -58,9 +59,9 @@ export default function Projects() {
     <div>
         <div className='projects'>
             <h1>Projects</h1>
-            {footballLeagueVideo()}<br/>
-            {passwordManagerVideo()}<br/>
-            {youtubeWatchListVideo()}
+            {FootballLeague()}<br/>
+            {PasswordManager()}<br/>
+            {YoutubeWatchList()}
         </div>
 
     </div>
