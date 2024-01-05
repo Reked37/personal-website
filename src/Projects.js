@@ -1,5 +1,7 @@
 import React from 'react'
-import FootballLeague from './'
+import FootballVideo from './videos/FootballVideo.mp4'
+import YoutubeVideo from './videos/YoutubeWatchList.mp4'
+import PasswordVideo from './videos/PasswordManager.mp4'
 
 export default function Projects() {
   const FootballLeague = () =>{
@@ -7,7 +9,7 @@ export default function Projects() {
         <div className='football'>
             <h2 className='sub-title'>Football League</h2>
             <video width='640' height='360' controls>
-                <source src='/videos/FootballLeague.mp4' type="video/mp4"/>
+                <source src={FootballVideo} type="video/mp4"/>
             </video>
             <div>
                 <h3 className='description'> Description</h3>
@@ -25,7 +27,7 @@ export default function Projects() {
         <div className='youtube'>
             <h2 className='sub-title'>Youtube Watch List</h2>
             <video width='640' height='360' controls>
-                <source src="./YoutubeWatchList.mp4" type="video/mp4"/>
+                <source src={YoutubeVideo} type="video/mp4"/>
             </video>
             <div>
                 <h3 className='description'>Description</h3>
@@ -42,7 +44,7 @@ export default function Projects() {
         <div className='password'>
             <h2 className='sub-title'>Password Manager</h2>
             <video width='640' height='360' controls>
-                <source src="./PasswordManager.mp4" type="video/mp4"/>
+                <source src={PasswordVideo} type="video/mp4"/>
             </video>
             <div>
                 <h3 className='description'>Description</h3>
