@@ -1,6 +1,6 @@
 @font-face{
   font-family: 'Merriweather';
-  src:url('//home/dtruesdale/Projects/personal-website/public/Merriweather/Merriweather-Regular.ttf') format('truetype');
+  src:url('/home/dtruesdale/Projects/personal-website/public/Merriweather/Merriweather-Regular.ttf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }
@@ -8,7 +8,10 @@
 body{
   font-family:'Merriweather', sans-serif;
   margin:20px;
+  font-size:18px;
+  background-color:#8EE4AF;
 }
+/* #5CDB95 #05386B  #8EE4AF #EDF5E1*/
 
 .navbar{
   margin:0;
@@ -16,21 +19,14 @@ body{
   overflow:hidden;
   top:0;
   width:100%;
-  font-size:20px
+  font-size:27px
 }
 .navbar a{
-  color:rgb(85, 30, 136);
+  color:#EDF5E1;
   float:left;
   padding:10px 30px;
   display:block;
-  background:green;
-}
-
-.navbar a:hover{
-  background-color: rgb(44, 182, 74);
-}
-.navbar a.active{
-  background-color: rgb(44, 182, 74);
+  background:#05386B;
 }
 
 .school-pictures{
@@ -52,18 +48,44 @@ body{
   height:auto;
 }
 
+.description{
+  color:#878b7e;
+}
+
 .title{
   text-align:center;
 }
 
 .sub-title{
-  text-align:center
+  text-align:center;
+  color:#05386B;
 }
 
 .projects{
   text-align: center;
 }
 
-.technologies{
-  text-align: center;
+.link{
+  padding:5px
+}
+
+.who{
+ text-align:center;
+ margin-left:200px;
+ margin-right:200px;
+}
+
+.football{
+  margin-left: 200px;
+  margin-right:200px;
+}
+
+.youtube{
+  margin-left:350px;
+  margin-right:350px;
+}
+
+.password{
+  margin-left:300px;
+  margin-right:300px;
 }

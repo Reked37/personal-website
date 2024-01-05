@@ -3,13 +3,13 @@ import React from 'react'
 export default function Projects() {
   const footballLeagueVideo = () =>{
     return(
-        <div>
-            <h2>Football League</h2>
+        <div className='football'>
+            <h2 className='sub-title'>Football League</h2>
             <video width='640' height='360' controls>
                 <source src="./FootballLeague.mp4" type="video/mp4"/>
             </video>
             <div>
-                <h3>Description</h3>
+                <h3 className='description'> Description</h3>
                 <li>Implemented RESTful APIs to facilitate data interactions.</li>
                 <li>Utilized React.js to build and modularized structure, with each feature encapsulated in its component
                 for enhanced code organizations and streamlined debugging.</li>
@@ -21,13 +21,13 @@ export default function Projects() {
   }
   const youtubeWatchListVideo = () =>{
     return(
-        <div>
-            <h2>Youtube Watch List</h2>
+        <div className='youtube'>
+            <h2 className='sub-title'>Youtube Watch List</h2>
             <video width='640' height='360' controls>
                 <source src="./YoutubeWatchList.mp4" type="video/mp4"/>
             </video>
             <div>
-                <h3>Description</h3>
+                <h3 className='description'>Description</h3>
                 <li>Implemented state management using useState and useEffect to fetch and handle data from APIs, ensuring real-time updates and dynamic content rendering.</li>
                 <li>Utilized React.js to create modular components that receive state through props. INcorporated callback functions to enable user interactions and data manipulation, with changes on the screen.</li>
                 <li>Implemented fetch requests to the backend for seamless data synchronization, ensuring user changes are reflected even after a page reloads.</li>
@@ -38,13 +38,13 @@ export default function Projects() {
   }
   const passwordManagerVideo = () =>{
     return(
-        <div>
-            <h2>Password Manager</h2>
+        <div className='password'>
+            <h2 className='sub-title'>Password Manager</h2>
             <video width='640' height='360' controls>
                 <source src="./PasswordManager.mp4" type="video/mp4"/>
             </video>
             <div>
-                <h3>Description</h3>
+                <h3 className='description'>Description</h3>
                 <li>Defined tables in models.py file using SQLAlchemy to establish a database schema for storing user credentials.</li>
                 <li>Implemented functionality for users to add, edit, and delete entries seamlessly, enhancing the application's versatility.</li>
                 <li>Employed a while loop for recursion to keep the application open until the user exits.</li>
