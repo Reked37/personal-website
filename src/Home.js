@@ -5,7 +5,7 @@ export default function Home() {
     <div className='who'>
       <h1 className= 'title'> Derek Truesdale's Website</h1>
       <div className='container'>
-        <img className="picture" src='https://i.imgur.com/G9dZsHT.jpg' />
+        <img className="picture" src='https://i.imgur.com/G9dZsHT.jpg' alt='profile-pic' />
       </div>
       <h2 className='sub-title'>Who I Am</h2>
       <div>I am an indivdual who love to learn and wants to contribute to the world. I graduated from Kent State University with my bachelors in psychology
@@ -15,11 +15,11 @@ export default function Home() {
         toured the Warner Brother Studio where Harry Potter was filmed. 
       </div><br/>
       <div className='container'>
-        <img className="school-pictures" src='https://i.imgur.com/jf9tGuC.jpg'/>
-        <img className="school-pictures" src='https://i.imgur.com/wQEJiTf.jpg'/><br/>
+        <img className="school-pictures" src='https://i.imgur.com/jf9tGuC.jpg' alt='me'/>
+        <img className="school-pictures" src='https://i.imgur.com/wQEJiTf.jpg' alt='graduation'/><br/>
       </div><br/>
     <div className='container'>
-        <img className="esports" src='https://i.imgur.com/4h5ziu2.jpg'/>
+        <img className="esports" src='https://i.imgur.com/4h5ziu2.jpg' alt='esports'/>
     </div>
 
       <h2 className='sub-title'>Career Trajectory</h2>
@@ -39,8 +39,8 @@ export default function Home() {
       <h3 className='sub-title'>Contact</h3>
       <a className='link' href='https://github.com/Reked37'> Github </a>
       <a className='link' href='https://www.linkedin.com/in/derektruesdale/'> Linkedin </a>
-      <a className='link' href=''> Twitter </a>
-      <a className='link' href=''> Instagram </a>
+      <a className='link' href='https://twitter.com/Reked37'> Twitter </a>
+      <a className='link' href='https://www.instagram.com/derektruesdale37/'> Instagram </a>
       <div className='email'> dtruesdale37@gmail.com </div>
     </div>
   )
