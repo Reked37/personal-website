@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.e96eb191.css",
+    "main.js": "/personal-website/static/js/main.6f07da24.js",
+    "static/media/PasswordManager.mp4": "/personal-website/static/media/PasswordManager.eb350842a540830f14c0.mp4",
+    "static/media/FootballVideo.mp4": "/personal-website/static/media/FootballVideo.5fe12abfe49294fec5d1.mp4",
+    "static/media/YoutubeWatchList.mp4": "/personal-website/static/media/YoutubeWatchList.3c9951a628a74ea7e072.mp4",
+    "static/media/Merriweather-Regular.ttf": "/personal-website/static/media/Merriweather-Regular.da67ca8c38ef44c4773d.ttf",
+    "index.html": "/personal-website/index.html",
+    "main.e96eb191.css.map": "/personal-website/static/css/main.e96eb191.css.map",
+    "main.6f07da24.js.map": "/personal-website/static/js/main.6f07da24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e96eb191.css",
+    "static/js/main.6f07da24.js"
+  ]
+}
