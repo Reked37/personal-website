@@ -22,7 +22,7 @@ export default function Home() {
         <img className="esports" src='https://i.imgur.com/4h5ziu2.jpg'/>
     </div>
 
-      <h2 className='sub-title'>Trajectory of Career</h2>
+      <h2 className='sub-title'>Career Trajectory</h2>
       <div> I recenetly graduated from Flatiron School which is a coding bootcamp which taught me the fundamentals of what it means to be a software engineer
         I started my journey to be a software engineer in April of 2023 and completed my certifcation in November 2023. Now that I have completed my courses, I am particpating in Chingu, 
         which is a 6-week project that I get put into a team environment to grow my abilities further and see what it's like to work in a professional setting with a team. Currently I am looking
